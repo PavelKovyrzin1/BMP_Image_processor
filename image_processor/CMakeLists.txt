@@ -1,0 +1,11 @@
+add_executable(
+    image_processor
+    FileWorker.cpp
+    image_processor.cpp
+    GrayscaleFilter.cpp
+    MatrixFilter.cpp
+    Negative.cpp
+    SharpeningFilter.cpp
+    EdgeDetectionFilter.cpp
+    CropFilter.cpp
+)
